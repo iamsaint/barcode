@@ -1,0 +1,28 @@
+{
+  "name": "iamsaint/barcode",
+  "description": "UPC-A, UPC-E, EAN-13, EAN-8, Code 39, Code 93, Code 128, Codabar, ITF, QR Code, and Data Matrix generator",
+  "version": "1.0.0",
+  "keywords": ["UPC-A", "UPC-E", "EAN-13", "EAN-8", "Code 39", "Code 93", "Code 128", "Codabar", "ITF", "QR Code", "Data Matrix"],
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "support": {
+    "source": "https://github.com/iamsaint/barcode",
+    "issues": "https://github.com/iamsaint/barcode/issues"
+  },
+  "authors": [
+    {
+      "name": "Alexey Chernousov",
+      "homepage": "https://github.com/iamsaint/"
+    }
+  ],
+  "require": {
+    "ext-gd": "*"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Barcode\\": "src/"
+    }
+  }
+}
